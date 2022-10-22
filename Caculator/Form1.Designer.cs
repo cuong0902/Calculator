@@ -35,6 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtKQ = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -45,7 +46,6 @@
             this.label1.Size = new System.Drawing.Size(29, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Số a";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -78,7 +78,6 @@
             this.label3.Size = new System.Drawing.Size(44, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Kết quả";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtKQ
             // 
@@ -86,7 +85,6 @@
             this.txtKQ.Name = "txtKQ";
             this.txtKQ.Size = new System.Drawing.Size(91, 20);
             this.txtKQ.TabIndex = 5;
-            this.txtKQ.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // button1
             // 
@@ -98,11 +96,23 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(47, 267);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(79, 28);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Trừ";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.OliveDrab;
             this.ClientSize = new System.Drawing.Size(372, 346);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtKQ);
             this.Controls.Add(this.label3);
@@ -127,6 +137,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtKQ;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

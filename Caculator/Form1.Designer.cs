@@ -45,7 +45,6 @@
             this.label1.Size = new System.Drawing.Size(29, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Số a";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -78,7 +77,6 @@
             this.label3.Size = new System.Drawing.Size(44, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Kết quả";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtKQ
             // 
@@ -86,7 +84,6 @@
             this.txtKQ.Name = "txtKQ";
             this.txtKQ.Size = new System.Drawing.Size(91, 20);
             this.txtKQ.TabIndex = 5;
-            this.txtKQ.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // button1
             // 
@@ -96,7 +93,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Cộng";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+         
             // 
             // Form1
             // 

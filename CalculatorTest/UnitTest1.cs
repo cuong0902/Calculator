@@ -47,7 +47,7 @@ namespace CalculatorTest
         }
         public TestContext TestContext { get; set; }
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",
-        @"C:\Users\admin\Downloads\Calculator\CalculatorTest\Data\TestData.csv", "TestData#csv", DataAccessMethod.Sequential)]
+        @"D:\Calculator\CalculatorTest\Data\TestData.csv", "TestData#csv", DataAccessMethod.Sequential)]
         [TestMethod]
         public void TestWithDataSource()
         {

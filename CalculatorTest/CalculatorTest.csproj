@@ -61,7 +61,11 @@
       <Name>Caculator</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Data\Bai03.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <ItemGroup>
     <None Include="Data\TestData.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
